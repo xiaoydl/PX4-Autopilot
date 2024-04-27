@@ -68,7 +68,8 @@ function(px4_add_common_flags)
 		# Warnings
 		-Wall
 		-Wextra
-		-Werror
+		# disable Werror for building my RadioLink pixhawk firmware
+		#-Werror
 
 		-Warray-bounds
 		-Wcast-align
